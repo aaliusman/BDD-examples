@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful login with valid credentials to Free Crm",
+        "description": "",
+        "id": "free-crm-login-action;successful-login-with-valid-credentials-to-free-crm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9737052255,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginSteps.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23954364,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free Crm",
+            "match": {
+              "location": "LoginSteps.title_of_login_page_is_Free_Crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38165968,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#And user enters username and password"
+              }
+            ],
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginSteps.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free Crm Login Action",
+    "description": "",
+    "id": "free-crm-login-action",
+    "keyword": "Feature",
+    "uri": "/Users/bravo1516/eclipse-workspace/FreeCrmBDD/src/main/java/features/login.feature"
+  }
+]
