@@ -21,7 +21,7 @@ public class LoginSteps {
 	@Given("^User is already on login page$")
 	public void user_is_already_on_login_page(){
 		
-		System.setProperty("webdriver.gecko.driver", "/Users/bravo1516/eclipse-workspace/SeleniumProject1/drivers/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/Users/bravo1516/Web-Automation-Framework/WebAuto-Framework/Generic/browser-driver/geckodriver");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.freecrm.com");
